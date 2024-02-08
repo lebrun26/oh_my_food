@@ -32,11 +32,12 @@ body {
   .reservation {
     position: relative;
     z-index: 0;
+    background-color: rgb(245, 239, 239);
+    padding: 45px 0px 50px 0px;
   }
   .reservation__title {
     display: flex;
     justify-content: center;
-    margin-top: 45px;
   }
   .reservation h2 {
     width: 75%;
@@ -46,20 +47,21 @@ body {
   .reservation__text {
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
   }
   .reservation__text p {
     width: 75%;
     text-align: center;
   }
-  .reservation__bouton {
+  .reservation__button {
     display: flex;
     justify-content: center;
   }
-  .reservation .button {
+  .reservation__button .button {
     background: linear-gradient(#FF79DA, #9356DC);
     display: flex;
     text-decoration: none;
-    width: 20%;
+    width: auto;
     height: 50px;
     border: none;
     border-radius: 25px;
@@ -68,19 +70,9 @@ body {
     align-items: center;
     color: white;
   }
-}
-.button {
-  background: linear-gradient(#FF79DA, #9356DC);
-  display: flex;
-  text-decoration: none;
-  width: 20%;
-  height: 50px;
-  border: none;
-  border-radius: 25px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  .reservation__button .button p {
+    margin: 15px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
