@@ -116,6 +116,21 @@ body {
     top: 48px;
     left: 23px;
   }
+  .restaurants {
+    background-color: rgb(253, 246, 246);
+  }
+  .restaurants__title {
+    padding-left: 15px;
+  }
+  .restaurants__cards__1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .restaurants__cards__1 img {
+    object-fit: cover;
+    height: 251px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

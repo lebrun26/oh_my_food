@@ -81,5 +81,21 @@ body{
             left: 23px;
         }
     }
+// Troisièmes section
+    .restaurants{
+        background-color: rgb(253, 246, 246);
+        &__title{
+            padding-left: 15px;
+        }
+        &__cards__1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            & img{
+                object-fit: cover;
+                height: 251px;
+            }
+        }
+    }
 }
 
