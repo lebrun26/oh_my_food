@@ -93,9 +93,12 @@ body{
         }
         &__container{
             display: flex;
+            flex-direction: column;
             justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
         }
-        &__cards__1{
+        &__cards{
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -128,6 +131,7 @@ body{
                 padding-left: 10px;
                 z-index: 0;
                 height: 85px;
+                width: 360px;
                 &__heart{
                     position: relative;
                     z-index: 1;
