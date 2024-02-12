@@ -78,7 +78,7 @@ body {
     padding-bottom: 60px;
   }
   .explain__title {
-    padding: 20px 0px 0px 20px;
+    padding: 20px 0px 13px 20px;
   }
   .explain__container {
     display: flex;
@@ -97,10 +97,10 @@ body {
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
     height: 72px;
     width: 85%;
-    margin-left: 30px;
+    margin: 0px 0px 30px 30px;
   }
   .explain__cards .fa-mobile-screen-button, .explain__cards .fa-list-ul, .explain__cards .fa-store {
-    margin-left: 35px;
+    margin-left: 15px;
     color: #7E7E7E;
   }
   .explain__cards .fa-mobile-screen-button:hover, .explain__cards .fa-list-ul:hover, .explain__cards .fa-store:hover {
@@ -121,8 +121,7 @@ body {
     border: none;
     border-radius: 20px;
     color: white;
-    top: 48px;
-    left: 23px;
+    right: 12px;
   }
   .restaurants {
     background-color: rgb(253, 246, 246);
