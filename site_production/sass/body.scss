@@ -88,6 +88,7 @@ body{
 // Troisièmes section
     .restaurants{
         background-color: rgb(253, 246, 246);
+        padding-bottom: 70px;
         &__title{
             padding: 60px  0px 0px 15px;
             & h2{
@@ -101,7 +102,7 @@ body{
             align-items: center;
             flex-wrap: wrap;
         }
-        &__cards{
+        &__cards__add{
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -126,6 +127,41 @@ body{
                 box-shadow: 0px 2px 4px 0px #00000026;
                 left: 275px;
                 top: 42px;
+            }
+            &__description{
+                background-color: white;
+                border-radius: 0px 0px 20px 20px;
+                box-shadow: 0px 4px 15px 0px #0000001A;
+                padding-left: 10px;
+                z-index: 0;
+                height: 85px;
+                width: 360px;
+                &__heart{
+                    position: relative;
+                    z-index: 1;
+                    left: 310px;
+                    bottom: 70px;
+                    width: 22px;
+                    height: 22px;
+                }
+                &__text h3 {
+                    margin: 0px;
+                    padding-top: 15px;
+                }
+            }
+        }
+        &__cards{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            z-index: 0;
+            margin-top: 30px;
+            & img{
+                object-fit: cover;
+                height: 176px;
+                width: 370px;
+                border: none;
+                border-radius: 20px 20px 0px 0px;
             }
             &__description{
                 background-color: white;
