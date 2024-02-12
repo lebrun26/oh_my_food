@@ -1,0 +1,42 @@
+.footer{
+    background-color: #353535;
+    &__restaurant{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: white;
+        padding: 10px 0px 0px 25px;
+        & p{
+            margin: 0px;
+            padding: 10px 0px 0px 10px;
+        }
+    }
+    & img{
+        margin: 20px 0px 0px 25px;
+    }
+    &__partner{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: white;
+        padding: 10px 0px 0px 25px;
+        & p{
+            margin: 0px;
+            padding-left: 10px;
+        }
+    }
+    &__mentions{
+        color: white;
+        & p{
+            margin: 0px;
+            padding: 10px 0px 0px 25px;
+        }
+    }
+    &__contact{
+        color: white;
+        & p{
+            padding: 10px 0px 25px 25px;
+            margin: 0px;
+        }
+    }
+}

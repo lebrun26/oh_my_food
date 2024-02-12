@@ -224,5 +224,47 @@ body {
     padding-top: 15px;
   }
 }
+.footer {
+  background-color: #353535;
+}
+.footer__restaurant {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  padding: 10px 0px 0px 25px;
+}
+.footer__restaurant p {
+  margin: 0px;
+  padding: 10px 0px 0px 10px;
+}
+.footer img {
+  margin: 20px 0px 0px 25px;
+}
+.footer__partner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  padding: 10px 0px 0px 25px;
+}
+.footer__partner p {
+  margin: 0px;
+  padding-left: 10px;
+}
+.footer__mentions {
+  color: white;
+}
+.footer__mentions p {
+  margin: 0px;
+  padding: 10px 0px 0px 25px;
+}
+.footer__contact {
+  color: white;
+}
+.footer__contact p {
+  padding: 10px 0px 25px 25px;
+  margin: 0px;
+}
 
 /*# sourceMappingURL=styles.css.map */
