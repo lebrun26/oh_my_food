@@ -59,8 +59,12 @@ body{
             height: 72px;
             width: 85%;
             margin-left: 30px;
-            & svg{
+            & .fa-mobile-screen-button, .fa-list-ul, .fa-store{
                 margin-left: 35px;
+                color: #7E7E7E;
+            }
+            & .fa-mobile-screen-button:hover, .fa-list-ul:hover, .fa-store:hover{
+                color: #9356DC;
             }
             & h3{
                 margin-left: 25px;

@@ -19,8 +19,9 @@
     z-index: 1;
     position: relative;
   }
-  .header__location svg {
+  .header__location .fa-location-dot {
     margin-right: 10px;
+    color: #353535;
   }
 }
 body {
@@ -98,8 +99,12 @@ body {
     width: 85%;
     margin-left: 30px;
   }
-  .explain__cards svg {
+  .explain__cards .fa-mobile-screen-button, .explain__cards .fa-list-ul, .explain__cards .fa-store {
     margin-left: 35px;
+    color: #7E7E7E;
+  }
+  .explain__cards .fa-mobile-screen-button:hover, .explain__cards .fa-list-ul:hover, .explain__cards .fa-store:hover {
+    color: #9356DC;
   }
   .explain__cards h3 {
     margin-left: 25px;
