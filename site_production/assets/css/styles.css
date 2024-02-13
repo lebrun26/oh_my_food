@@ -238,8 +238,13 @@ body {
   margin: 0px;
   padding: 10px 0px 0px 10px;
 }
-.footer img {
-  margin: 20px 0px 0px 25px;
+.footer__title {
+  color: white;
+  font-family: "shrikhand", sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  padding: 20px 0px 0px 25px;
+  margin: 0px;
 }
 .footer__partner {
   display: flex;

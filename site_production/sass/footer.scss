@@ -11,8 +11,13 @@
             padding: 10px 0px 0px 10px;
         }
     }
-    & img{
-        margin: 20px 0px 0px 25px;
+    &__title{
+        color: white;
+        font-family: "shrikhand", sans-serif;
+        font-style: italic;
+        font-size: 18px;
+        padding: 20px 0px 0px 25px;
+        margin: 0px;
     }
     &__partner{
         display: flex;
