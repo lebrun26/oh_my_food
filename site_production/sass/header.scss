@@ -26,5 +26,14 @@
             color: #353535;
         }
 
+        // reprendre demain le header...
+    }
+    .header__container{
+        display: flex;
+        flex-direction: row;
+        .header__comeback{
+            display: flex;
+            align-items: center;
+        }
     }
 }
