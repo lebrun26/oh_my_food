@@ -8,7 +8,7 @@
         padding: 10px 0px 0px 25px;
         & p{
             margin: 0px;
-            padding: 10px 0px 0px 10px;
+            padding-left: 10px;
         }
     }
     &__title{
@@ -25,6 +25,13 @@
         align-items: center;
         color: white;
         padding: 10px 0px 0px 25px;
+        & .fa-handshake{
+            transform: rotate(326deg);
+            font-size: 14px;
+            display: inline-block;
+            width: 13px;
+            height: 11.92px;
+        }
         & p{
             margin: 0px;
             padding-left: 10px;

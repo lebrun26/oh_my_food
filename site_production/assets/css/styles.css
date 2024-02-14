@@ -346,7 +346,7 @@ body {
 }
 .footer__restaurant p {
   margin: 0px;
-  padding: 10px 0px 0px 10px;
+  padding-left: 10px;
 }
 .footer__title {
   color: white;
@@ -362,6 +362,13 @@ body {
   align-items: center;
   color: white;
   padding: 10px 0px 0px 25px;
+}
+.footer__partner .fa-handshake {
+  transform: rotate(326deg);
+  font-size: 14px;
+  display: inline-block;
+  width: 13px;
+  height: 11.92px;
 }
 .footer__partner p {
   margin: 0px;
