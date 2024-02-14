@@ -1,9 +1,9 @@
 @media (max-width: 767.98px) {
-  .header__logo {
+  .logo__container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 0px 20px 0px;
+    padding: 30px 0px 20px 0px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1490196078);
     z-index: 2;
     position: relative;
@@ -23,13 +23,26 @@
     margin-right: 10px;
     color: #353535;
   }
-  .header__container {
-    display: flex;
-    flex-direction: row;
+  .header__container a {
+    text-decoration: none;
+    color: #353535;
   }
   .header__container .header__comeback {
     display: flex;
     align-items: center;
+    font-size: 17px;
+    position: relative;
+    z-index: 1;
+    top: 25px;
+    left: 30px;
+    width: 15px;
+  }
+  .header__container .header__logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 15px;
   }
 }
 body {
@@ -154,6 +167,10 @@ body {
     justify-content: center;
     z-index: 0;
   }
+  .restaurants__cards__add a {
+    text-decoration: none;
+    color: black;
+  }
   .restaurants__cards__add img {
     object-fit: cover;
     height: 176px;
@@ -248,12 +265,11 @@ body {
     margin-top: 230px;
   }
   .container .title {
-    padding: 40px 20px 0px 50px;
+    padding-top: 40px;
+    margin: 0px 30px 0px 30px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
   }
   .container .title h2 {
     font-size: 28px;
@@ -272,9 +288,8 @@ body {
   .container .menu {
     display: flex;
     flex-direction: column;
-  }
-  .container .menu__title {
-    padding-left: 50px;
+    flex-wrap: wrap;
+    align-content: center;
   }
   .container .menu__title p {
     margin: 15px 0px 3px 0px;
@@ -282,7 +297,7 @@ body {
   .container .menu .green__bar {
     border: 1px solid #99E2D0;
     width: 40px;
-    margin: 0px 0px 10px 50px;
+    margin-bottom: 10px;
   }
   .container .menu__cards {
     width: 80%;
@@ -290,7 +305,7 @@ body {
     border-radius: 15px;
     box-shadow: 0px 4.0114941597px 15.0431032181px 0px rgba(0, 0, 0, 0.1019607843);
     padding: 10px;
-    margin: 0px 0px 10px 50px;
+    margin-bottom: 10px;
   }
   .container .menu__cards__title {
     padding-bottom: 5px;
@@ -308,6 +323,7 @@ body {
   }
   .container .menu__cards__txt__price .bold {
     font-weight: bold;
+    padding: 0px 10px 5px 0px;
   }
   .container__button {
     display: flex;
