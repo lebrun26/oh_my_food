@@ -141,8 +141,10 @@ body{
                     z-index: 1;
                     left: 310px;
                     bottom: 70px;
-                    width: 22px;
-                    height: 22px;
+                    
+                    
+                    // width: 22px;
+                    // height: 22px;
                 }
                 &__text h3 {
                     margin: 0px;
@@ -176,8 +178,9 @@ body{
                     z-index: 1;
                     left: 310px;
                     bottom: 70px;
-                    width: 22px;
-                    height: 22px;
+                    & .fa-heart{
+                        font-size: 22px;
+                    }
                 }
                 &__text h3 {
                     margin: 0px;
@@ -197,29 +200,50 @@ body{
         object-fit: cover;
         }
     }
-    .menu__container{
+    .container{
         background-color: #F6F6F6;
         position: relative;
         z-index: 1;
         border-radius: 35px 35px 0px 0px;
         margin-top: 230px;
         .title{
-            padding: 40px 20px 0px 10px;
+            padding: 40px 20px 0px 50px;
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
-
+            width: 80%;
             & h2{
+                font-size: 28px;
+                font-family: "shrikhand", sans-serif;
+                font-style: italic;
                 margin: 0px;
+            }
+            .heart{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .fa-heart{
+                    font-size: 22px;
+                }
+                
             }
         }
         
-        .enter{
+        .menu{
             display: flex;
-            flex-wrap: wrap;
             flex-direction: column;
-            align-content: center;
+            &__title{
+                padding-left: 50px;
+                & p{
+                    margin: 15px 0px 3px 0px;
+                }
+            }
+            .green__bar{
+                border: 1px solid #99E2D0;
+                width: 40px;
+                margin: 0px 0px 10px 50px;
+            }
         }
         .menu__cards{
             width: 80%;
@@ -227,6 +251,7 @@ body{
             border-radius: 15px;
             box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
             padding: 10px;
+            margin: 0px 0px 10px 50px;
             &__title{
                 padding-bottom: 5px;
                 & h3{
@@ -240,6 +265,18 @@ body{
                 & p{
                     margin: 0px;
                 }
+                & .bold{
+                    font-weight: bold;
+                }
+            }
+        }
+        &__button{
+            display: flex;
+            justify-content: center;
+            padding: 30px 0px 42px 0px;
+            @import "./button.scss";
+            & p{
+                padding: 0px 40px 0px 40px;
             }
         }
     }
