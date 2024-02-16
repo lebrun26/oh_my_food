@@ -218,6 +218,10 @@ body {
     z-index: 0;
     margin-top: 30px;
   }
+  .restaurants__cards a {
+    text-decoration: none;
+    color: black;
+  }
   .restaurants__cards img {
     object-fit: cover;
     height: 176px;
