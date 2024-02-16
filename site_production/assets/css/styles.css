@@ -221,7 +221,7 @@ body {
   }
   .restaurants__cards a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   .restaurants__cards img {
     object-fit: cover;
@@ -419,25 +419,24 @@ body {
     transform: translateY(0);
   }
 }
-.loader__img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-origin: left;
-  background-image: url();
-  width: 150px;
-  height: 200px;
-}
+/*.loader__img{
 
-body {
-  background-color: white;
-  position: relative;
-  z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: left;
+    background-image: url();
+    width: 150px;
+    height: 200px;
 }
-
-.loader {
-  position: relative;
-  z-index: 1;
+body{
+    background-color: white;
+    position: relative;
+    z-index: 0;
 }
+.loader{
+    position: relative;
+    z-index: 1;
+}*/
 
 /*# sourceMappingURL=styles.css.map */
