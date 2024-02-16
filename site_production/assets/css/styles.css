@@ -206,6 +206,7 @@ body {
     z-index: 1;
     left: 310px;
     bottom: 70px;
+    width: 23px;
   }
   .restaurants__cards__add__description__text h3 {
     margin: 0px;
@@ -243,6 +244,7 @@ body {
     z-index: 1;
     left: 310px;
     bottom: 70px;
+    width: 23px;
   }
   .restaurants__cards__description__heart .fa-heart {
     font-size: 22px;
@@ -407,6 +409,35 @@ body {
 .footer__contact p {
   padding: 10px 0px 25px 25px;
   margin: 0px;
+}
+
+@keyframes loader-img {
+  0% {
+    transform: translateY(-9999);
+  }
+  40% {
+    transform: translateY(0);
+  }
+}
+.loader__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-origin: left;
+  background-image: url();
+  width: 150px;
+  height: 200px;
+}
+
+body {
+  background-color: white;
+  position: relative;
+  z-index: 0;
+}
+
+.loader {
+  position: relative;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */
