@@ -413,12 +413,23 @@ body {
   margin: 0px;
 }
 
-@keyframes loader-img {
-  0% {
-    transform: translateY(-9999);
+@keyframes loader-translate {
+  from {
+    transform: translateX(-9999px);
   }
-  40% {
-    transform: translateY(0);
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes loader-rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 .loader {
@@ -428,7 +439,16 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 9;
+}
+.loader img {
+  position: absolute;
   z-index: 10;
+  width: 75px;
+  height: 75px;
+  top: 40%;
+  left: 50%;
+  animation: loader-translate 1950ms 50ms ease-in-out, loader-rotation 850ms 2150ms both ease-in-out;
 }
 
 /*# sourceMappingURL=styles.css.map */
