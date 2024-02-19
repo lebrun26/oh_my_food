@@ -8,7 +8,7 @@ body{
     .reservation{
         position: relative;
         z-index: 0;
-        background-color: rgb(253, 246, 246);
+        background-color: $cd-background--secondary;
         padding: 45px 0px 50px 0px;
         &__title{
             display: flex;
@@ -49,22 +49,22 @@ body{
         &__cards{
             position: relative;
             z-index: 0;
-            background-color: #F6F6F6;
+            background-color: $cd-background;
             display: flex;
             flex-direction: row;
             align-items: center;
             border: none;
             border-radius: 20px;
-            box-shadow: 0px 4px 15px 0px #00000026;
+            box-shadow: 0px 4px 15px 0px $cd-shadow;
             height: 72px;
             width: 85%;
             margin: 0px 0px 30px 30px;
             & .fa-mobile-screen-button, .fa-list-ul, .fa-store{
                 margin-left: 15px;
-                color: #7E7E7E;
+                color: $cd-color--font;
             }
             & .fa-mobile-screen-button:hover, .fa-list-ul:hover, .fa-store:hover{
-                color: #9356DC;
+                color: $cd-background--circle;
             }
             & h3{
                 margin-left: 25px;
@@ -78,7 +78,7 @@ body{
             justify-content: center;
             width: 24px;
             height: 24px;
-            background-color: #9356DC;
+            background-color: $cd-background--circle;
             border: none;
             border-radius: 20px;
             color: white;
@@ -87,7 +87,7 @@ body{
     }
 // Troisièmes section
     .restaurants{
-        background-color: rgb(253, 246, 246);
+        background-color: $cd-background--secondary;
         padding-bottom: 70px;
         &__title{
             padding: 60px  0px 0px 15px;
@@ -109,7 +109,7 @@ body{
             z-index: 0;
             & a{
                 text-decoration: none;
-                color: black;
+                color: $cd-color--txt;
             }
             & img{
                 object-fit: cover;
@@ -121,21 +121,21 @@ body{
             &__notif{
                 position: relative;
                 z-index: 1;
-                background-color: #99E2D0;
+                background-color: $cd-background--notif;
                 border-radius: 5px;
                 height: 29px;
                 width: 80px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                box-shadow: 0px 2px 4px 0px #00000026;
+                box-shadow: 0px 2px 4px 0px $cd-shadow;
                 left: 275px;
                 top: 42px;
             }
             &__description{
-                background-color: white;
+                background-color: $cd-background;
                 border-radius: 0px 0px 20px 20px;
-                box-shadow: 0px 4px 15px 0px #0000001A;
+                box-shadow: 0px 4px 15px 0px $cd-shadow--secondary;
                 padding-left: 10px;
                 z-index: 0;
                 height: 85px;
@@ -175,9 +175,9 @@ body{
                 border-radius: 20px 20px 0px 0px;
             }
             &__description{
-                background-color: white;
+                background-color: $cd-background;
                 border-radius: 0px 0px 20px 20px;
-                box-shadow: 0px 4px 15px 0px #0000001A;
+                box-shadow: 0px 4px 15px 0px $cd-shadow--secondary;
                 padding-left: 10px;
                 z-index: 0;
                 height: 85px;
@@ -211,7 +211,7 @@ body{
         }
     }
     .container{
-        background-color: #F6F6F6;
+        background-color: $cd-background--main;
         position: relative;
         z-index: 1;
         border-radius: 35px 35px 0px 0px;
@@ -250,7 +250,7 @@ body{
                 }
             }
             .green__bar{
-                border: 1px solid #99E2D0;
+                border: 1px solid $cd-background--notif;
                 width: 40px;
                 margin-bottom: 10px;
             }
@@ -259,7 +259,7 @@ body{
             width: 80%;
             border: none;
             border-radius: 15px;
-            box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px #0000001A;
+            box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px $cd-shadow--secondary;
             padding: 10px;
             margin-bottom: 10px;
             &__title{

@@ -54,7 +54,7 @@ body {
   .reservation {
     position: relative;
     z-index: 0;
-    background-color: rgb(253, 246, 246);
+    background-color: #FDF6F6;
     padding: 45px 0px 50px 0px;
   }
   .reservation__title {
@@ -109,7 +109,7 @@ body {
   .explain__cards {
     position: relative;
     z-index: 0;
-    background-color: #F6F6F6;
+    background-color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -145,7 +145,7 @@ body {
     right: 12px;
   }
   .restaurants {
-    background-color: rgb(253, 246, 246);
+    background-color: #FDF6F6;
     padding-bottom: 70px;
   }
   .restaurants__title {
@@ -221,7 +221,7 @@ body {
   }
   .restaurants__cards a {
     text-decoration: none;
-    color: white;
+    color: black;
   }
   .restaurants__cards img {
     object-fit: cover;
