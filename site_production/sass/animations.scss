@@ -78,9 +78,14 @@
     }
 }
 // Animation sur les boutons
-.button:hover{
-    background: linear-gradient(200.64deg, #9356DC -70.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
-    box-shadow: 0px 4px 15px 0px #00000059;
+.button{
+    transition-property: transition;
+    transition-duration: 3000ms;
+    &:hover{
+        background: linear-gradient(200.64deg, #9356DC -70.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+        box-shadow: 0px 4px 15px 0px #00000059;
+    }
 }
+
 
 
