@@ -1,7 +1,21 @@
+@keyframes background{
+    0%{
+        background-color: white;
+        opacity: 1;
+    }
+    95%{
+       background-color: white;
+       opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        background: transparent;
+        display: none;
+    }
+}
 @keyframes loader{
     0%{
         transform: translateX(-900px);
-
     }
     50%{
         transform: translateX(0);
@@ -14,13 +28,14 @@
     }
 }
 .loader{
-    background-color: $cd-background;
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 9;
+    animation: background 3000ms forwards;
+
     & img{
         position: absolute;
         z-index: 10;
@@ -28,6 +43,6 @@
         height: 75px;
         top: 40%;
         left: 50%;
-        animation: loader 2900ms 100ms ease-in-out;
+        animation: loader 2600ms 100ms ease-in-out;
     }
 }
