@@ -1,21 +1,16 @@
-@keyframes loader-translate{
-    from{
-        transform: translateX(-9999px);
+@keyframes loader{
+    0%{
+        transform: translateX(-900px);
 
     }
-    to{
+    50%{
         transform: translateX(0);
     }
-}
-@keyframes loader-rotation{
-    0%{
+    60%{
         transform: rotate(0deg);
     }
-    50%{
-        transform: rotate(180deg);
-    }
     100%{
-        transform: rotate(360deg);
+        transform: rotate(720deg);
     }
 }
 .loader{
@@ -33,6 +28,6 @@
         height: 75px;
         top: 40%;
         left: 50%;
-        animation: loader-translate 1950ms 50ms ease-in-out, loader-rotation 850ms 2150ms both ease-in-out;
+        animation: loader 2900ms 100ms ease-in-out;
     }
 }
