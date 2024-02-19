@@ -89,6 +89,7 @@ body{
     .restaurants{
         background-color: $cd-background--secondary;
         padding-bottom: 70px;
+        position: relative;
         &__title{
             padding: 60px  0px 0px 15px;
             & h2{
