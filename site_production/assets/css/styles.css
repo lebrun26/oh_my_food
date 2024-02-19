@@ -461,28 +461,27 @@ body {
   animation: loader 2600ms ease-in-out;
 }
 
-@keyframes appearance-title {
+@keyframes appearance {
   from {
     transform: translateX(-999px);
+    opacity: 0;
   }
   to {
     transform: translateX(0);
+    opacity: 1;
   }
 }
-.title {
-  animation: appearance-title 1000ms;
+.container .title {
+  animation: appearance 2000ms 100ms backwards;
 }
-
-@keyframes appearance-enter {
-  from {
-    transform: translateX(-999px);
-  }
-  to {
-    transform: translateX(0);
-  }
+.container .enter {
+  animation: appearance 2000ms 250ms backwards;
 }
-.menu {
-  animation: appearance-enter 1000ms;
+.container .dishes {
+  animation: appearance 2000ms 400ms backwards;
+}
+.container .desserts {
+  animation: appearance 2000ms 550ms backwards;
 }
 
 /*# sourceMappingURL=styles.css.map */

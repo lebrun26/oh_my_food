@@ -49,26 +49,31 @@
 }
 // Animation menu
 //Titre des page de menu
-@keyframes appearance-title {
+@keyframes appearance {
     from{
         transform: translateX(-999px);
+        opacity: 0;
     }
     to{
         transform: translateX(0);
+        opacity: 1;
     }
 }
-.title{
-    animation: appearance-title 1000ms;
-}
-// Entrée
-@keyframes appearance-enter{
-    from{
-        transform: translateX(-999px);
+.container{
+    // title
+    & .title{
+        animation: appearance 2000ms 100ms backwards;
     }
-    to{
-        transform: translateX(0);
+    // Entrée
+    & .enter{
+        animation: appearance 2000ms 250ms backwards;
     }
-}
-.menu{
-    animation: appearance-enter 1000ms;
+    // Plats
+    & .dishes{
+        animation: appearance 2000ms 400ms backwards;
+    }
+    // Desserts
+    & .desserts{
+        animation: appearance 2000ms 550ms backwards;
+    }
 }
