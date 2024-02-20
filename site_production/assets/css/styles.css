@@ -307,30 +307,46 @@ body {
     margin-bottom: 10px;
   }
   .container .menu__cards {
+    display: flex;
+    flex-direction: row;
     width: 80%;
     border: none;
     border-radius: 15px;
     box-shadow: 0px 4.0114941597px 15.0431032181px 0px rgba(0, 0, 0, 0.1019607843);
-    padding: 10px;
     margin-bottom: 10px;
   }
-  .container .menu__cards__title {
-    padding-bottom: 5px;
-  }
-  .container .menu__cards__title h3 {
-    margin: 0px;
-  }
-  .container .menu__cards__txt__price {
+  .container .menu__cards__description {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px 10px 10px;
   }
-  .container .menu__cards__txt__price p {
+  .container .menu__cards__description h3 {
     margin: 0px;
   }
-  .container .menu__cards__txt__price .bold {
-    font-weight: bold;
-    padding: 0px 10px 5px 0px;
+  .container .menu__cards__description p {
+    margin: 0px;
+  }
+  .container .menu__cards__price {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+  .container .menu__cards__price p {
+    margin: 0px;
+  }
+  .container .menu__cards__check {
+    background-color: #99E2D0;
+    width: 50px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 15px 15px 0px;
+  }
+  .container .menu__cards__check i {
+    color: white;
   }
   .container__button {
     display: flex;
