@@ -80,7 +80,7 @@ body {
     justify-content: center;
   }
   .reservation__button .button {
-    background: linear-gradient(#FF79DA, #9356DC);
+    background-image: linear-gradient(#FF79DA, #9356DC);
     display: flex;
     text-decoration: none;
     width: auto;
@@ -338,7 +338,7 @@ body {
     padding: 30px 0px 42px 0px;
   }
   .container__button .button {
-    background: linear-gradient(#FF79DA, #9356DC);
+    background-image: linear-gradient(#FF79DA, #9356DC);
     display: flex;
     text-decoration: none;
     width: auto;
@@ -485,11 +485,10 @@ body {
 }
 
 .button {
-  transition-property: transition;
-  transition-duration: 3000ms;
+  transition: background-image 2000ms ease, box-shadow 2000ms ease;
 }
 .button:hover {
-  background: linear-gradient(200.64deg, #9356DC -70.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  background-image: linear-gradient(200.64deg, #9356DC -70.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3490196078);
 }
 
