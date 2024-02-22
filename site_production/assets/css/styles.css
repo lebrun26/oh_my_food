@@ -508,12 +508,70 @@ body {
   animation: appearance 2000ms 550ms backwards;
 }
 
-.button {
-  transition: background-image 2000ms ease, box-shadow 2000ms ease;
+.reservation__button {
+  position: relative;
 }
-.button:hover {
+
+.button {
+  transition: opacity 500ms ease;
+  position: relative;
+}
+
+.reservation__button .button {
+  opacity: 1;
+}
+
+.reservation__button .button::before {
+  content: "Explorer nos restaurants";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  border-radius: 25px;
   background-image: linear-gradient(200.64deg, #9356DC -70.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3490196078);
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+
+* .reservation__button:hover .button::before {
+  opacity: 1;
+}
+
+.container__button {
+  position: relative;
+}
+
+.button {
+  transition: opacity 500ms ease;
+  position: relative;
+}
+
+.container__button .button {
+  opacity: 1;
+}
+
+.container__button .button::before {
+  content: "Commander";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  border-radius: 25px;
+  background-image: linear-gradient(200.64deg, #9356DC -70.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.3490196078);
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+
+* .container__button:hover .button::before {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */
