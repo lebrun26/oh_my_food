@@ -61,7 +61,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  .reservation h2 {
+  .reservation h1 {
     width: 75%;
     text-align: center;
     margin: 0px;
@@ -278,7 +278,7 @@ body {
     align-items: center;
     justify-content: space-between;
   }
-  .container .title h2 {
+  .container .title h1 {
     font-size: 28px;
     font-family: "shrikhand", sans-serif;
     font-style: italic;
@@ -309,7 +309,7 @@ body {
   .container .menu__cards {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 90%;
     border: none;
     border-radius: 15px;
     box-shadow: 0px 4.0114941597px 15.0431032181px 0px rgba(0, 0, 0, 0.1019607843);
@@ -319,13 +319,20 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0px 8px 10px;
+    justify-content: space-around;
+    white-space: nowrap;
   }
   .container .menu__cards__description h3 {
     margin: 0px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .container .menu__cards__description p {
     margin: 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .container .menu__cards__price {
     display: flex;
@@ -335,11 +342,12 @@ body {
   }
   .container .menu__cards__price p {
     margin: 0px;
+    font-weight: bold;
   }
   .container .menu__cards__check {
     background-color: #99E2D0;
-    width: 50px;
-    height: 60px;
+    width: 65px;
+    height: 63px;
     display: flex;
     align-items: center;
     justify-content: center;
