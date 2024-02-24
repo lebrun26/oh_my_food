@@ -272,6 +272,8 @@ body{
                 padding: 10px 0px 8px 10px;
                 justify-content: space-around;
                 white-space: nowrap;
+                flex: 1;
+                min-width: 0;
                 & h3{
                     margin: 0px;
                     padding-bottom: 5px;
@@ -288,7 +290,7 @@ body{
                 display: flex;
                 align-items: flex-end;
                 padding-bottom: 10px;
-                padding-right: 10px;
+                padding-right: 15px;
                 & p{
                     margin: 0px;
                     font-weight: bold;
@@ -296,7 +298,7 @@ body{
             }
             &__check{
                 background-color: #99E2D0;
-                width: 65px;
+                width: 0px;
                 height: 63px;
                 display: flex;
                 align-items: center;
@@ -304,6 +306,7 @@ body{
                 border-radius: 0px 15px 15px 0px;
                 & i{
                     color: white;
+                    font-size: 0;
                 }
                 }
             
