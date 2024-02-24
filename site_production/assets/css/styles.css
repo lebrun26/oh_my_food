@@ -307,16 +307,23 @@ body {
     width: 40px;
     margin-bottom: 10px;
   }
-  .container .menu__cards {
+  .container .container__menu {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+  }
+  .container .container__menu .menu__cards {
     display: flex;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     border: none;
     border-radius: 15px;
     box-shadow: 0px 4.0114941597px 15.0431032181px 0px rgba(0, 0, 0, 0.1019607843);
     margin-bottom: 10px;
   }
-  .container .menu__cards__description {
+  .container .container__menu .menu__cards__description {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -326,39 +333,41 @@ body {
     flex: 1;
     min-width: 0;
   }
-  .container .menu__cards__description h3 {
+  .container .container__menu .menu__cards__description h3 {
     margin: 0px;
     padding-bottom: 5px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  .container .menu__cards__description p {
+  .container .container__menu .menu__cards__description p {
     margin: 0px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  .container .menu__cards__price {
+  .container .container__menu .menu__cards__price {
     display: flex;
     align-items: flex-end;
     padding-bottom: 10px;
     padding-right: 15px;
   }
-  .container .menu__cards__price p {
+  .container .container__menu .menu__cards__price p {
     margin: 0px;
     font-weight: bold;
   }
-  .container .menu__cards__check {
-    background-color: #99E2D0;
-    width: 0px;
+  .container .container__menu .menu__cards__check {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .container .container__menu .menu__cards__check i {
+    color: white;
+    font-size: 20px;
+    width: 60px;
     height: 63px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #99E2D0;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0px 15px 15px 0px;
-  }
-  .container .menu__cards__check i {
-    color: white;
-    font-size: 0;
   }
   .container__button {
     display: flex;
@@ -577,6 +586,18 @@ body {
 
 * .container__button:hover .button::before {
   opacity: 1;
+}
+
+.menu__cards i {
+  max-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: max-width 1000ms ease;
+}
+
+.menu__cards:active i {
+  max-width: 100%;
+  transition: max-width 1000ms ease;
 }
 
 /*# sourceMappingURL=styles.css.map */
