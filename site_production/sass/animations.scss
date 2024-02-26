@@ -140,28 +140,32 @@
 // Animation pour commande de plat
 
 .container__menu {
-    
     // Cacher l'apperçu par défaut de l'input
     input[type=checkbox] {
       display:none;
     }
     i {
-      width: 0;
-      display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 0;
+        width: 0;
+        overflow: hidden;
+        transition: all 600ms ease-out;
     }
     input[type=checkbox]:checked + i {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 20%;
+      width: 60px;
+      font-size: 20px;
       height: auto;
       background : #99E2D0;
       color: white;
     }
-    & .menu__cards{
-        input[type=checkbox]:checked + & {
-            width: 80%;
-          }
+    input[type=checkbox]:checked + &__cards {
+        width: 80%;
     }
   }
 

@@ -263,7 +263,8 @@ body{
             box-shadow: 0px 4.011494159698486px 15.043103218078613px 0px $cd-shadow--secondary;
             border-radius: 15px;
             overflow: hidden;
-            .menu__cards{
+            margin-bottom: 15px;
+            &__cards{
                 display: flex;
                 flex-direction: column;
                 width: 100%;
