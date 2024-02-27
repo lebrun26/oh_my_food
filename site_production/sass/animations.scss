@@ -168,5 +168,45 @@
         width: 80%;
     }
   }
+  // Transition coeur
+.heart__container{
+    .heart__checkbox {
+    display: none;
+    }
+
+    .heart {
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 25px;
+
+    .heart-filled {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0;
+        transition: transform 0.5s $transition-curve, opacity 0.5s $transition-curve;
+
+        &.gradient {
+        background: linear-gradient(180deg, #9356DC, #FF79DA);
+        background-clip: text;
+        color: transparent;
+        }
+    }
+    }
+
+    .heart__checkbox:checked + .heart {
+    .heart-filled {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    .heart-empty {
+        opacity: 0;
+    }
+    }
+}
 
 
