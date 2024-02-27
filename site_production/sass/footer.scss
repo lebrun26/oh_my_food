@@ -46,10 +46,11 @@
         }
     }
     &__contact{
-        color: white;
-        & p{
-            padding: 10px 0px 25px 25px;
-            margin: 0px;
+        padding: 10px 0px 25px 25px;
+        
+        & a{
+            color: white;
+            text-decoration: none;
         }
     }
 }
