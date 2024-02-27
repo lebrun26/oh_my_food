@@ -168,17 +168,11 @@ body {
     flex-direction: column;
     justify-content: center;
     z-index: 0;
+    width: 90%;
   }
   .restaurants__cards__add a {
     text-decoration: none;
     color: black;
-  }
-  .restaurants__cards__add img {
-    object-fit: cover;
-    height: 176px;
-    width: 370px;
-    border: none;
-    border-radius: 20px 20px 0px 0px;
   }
   .restaurants__cards__add__notif {
     position: relative;
@@ -191,8 +185,15 @@ body {
     justify-content: center;
     align-items: center;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1490196078);
-    left: 275px;
-    top: 42px;
+    left: 75%;
+    top: 45px;
+  }
+  .restaurants__cards__add img {
+    object-fit: cover;
+    height: 176px;
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
   }
   .restaurants__cards__add__description {
     background-color: white;
@@ -220,6 +221,7 @@ body {
     justify-content: center;
     z-index: 0;
     margin-top: 30px;
+    width: 90%;
   }
   .restaurants__cards a {
     text-decoration: none;
@@ -228,7 +230,7 @@ body {
   .restaurants__cards img {
     object-fit: cover;
     height: 176px;
-    width: 370px;
+    width: 100%;
     border: none;
     border-radius: 20px 20px 0px 0px;
   }
@@ -236,16 +238,15 @@ body {
     background-color: white;
     border-radius: 0px 0px 20px 20px;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1019607843);
-    padding-left: 10px;
     z-index: 0;
-    height: 85px;
-    width: 360px;
+    height: 80px;
+    width: 100%;
   }
   .restaurants__cards__description__heart {
     position: relative;
     z-index: 1;
-    left: 310px;
-    bottom: 70px;
+    left: 85%;
+    bottom: 50px;
     width: 23px;
   }
   .restaurants__cards__description__heart .fa-heart {
@@ -254,6 +255,11 @@ body {
   .restaurants__cards__description__text h3 {
     margin: 0px;
     padding-top: 15px;
+    padding-left: 10px;
+  }
+  .restaurants__cards__description__text p {
+    margin: 5px;
+    padding-left: 10px;
   }
   .images__menu {
     position: absolute;
