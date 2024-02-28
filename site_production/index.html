@@ -47,29 +47,31 @@
             <h2>Fonctionnement</h2>
         </div>
         <div class="explain__container">
-            <article class="explain__cards">
-                <div class="circle__numbers">
-                    <p>1</p>
-                </div>
-                <i class="fa-solid fa-mobile-screen-button"></i>  
-                <h3>Choisissez un restaurant</h3>
-            </article>
-            
-            <article class="explain__cards">
-                <div class="circle__numbers">
-                    <p>2</p>
-                </div>
-                <i class="fa-solid fa-list-ul"></i>
-                <h3>Composez votre menu</h3>
-            </article>
-            
-            <article class="explain__cards">
-                <div class="circle__numbers">
-                    <p>3</p>
-                </div>
-                <i class="fa-solid fa-store"></i>
-                <h3>Dégustez au restaurant</h3>
-            </article>
+            <div class="explain__container__block">
+                <article class="explain__cards">
+                    <div class="circle__numbers">
+                        <p>1</p>
+                    </div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>  
+                    <h3>Choisissez un restaurant</h3>
+                </article>
+                
+                <article class="explain__cards">
+                    <div class="circle__numbers">
+                        <p>2</p>
+                    </div>
+                    <i class="fa-solid fa-list-ul"></i>
+                    <h3>Composez votre menu</h3>
+                </article>
+                
+                <article class="explain__cards">
+                    <div class="circle__numbers">
+                        <p>3</p>
+                    </div>
+                    <i class="fa-solid fa-store"></i>
+                    <h3>Dégustez au restaurant</h3>
+                </article>
+            </div>
         </div>
     </section>
     <!--Troisièmes sections-->
@@ -77,7 +79,7 @@
         <div class="restaurants__title">
             <h2>Restaurants</h2>
         </div>
-        <div class="restaurants__container">
+        <div class="restaurants__container__add">
             <!--Carte 1-->
             <article class="restaurants__cards__add">
                 <a href="./restaurants/page_menu_1.html">
@@ -127,6 +129,8 @@
                     </div>
                 </a>
             </article>
+        </div>
+        <div class="restaurants__container">
             <!--Carte 3-->
             <article class="restaurants__cards">
                 <a href="./restaurants/page_menu_3.html">
@@ -175,19 +179,21 @@
     <footer>
         <div class="footer">
             <p class="footer__title">ohmyfood</p>
-            <div class="footer__restaurant">
-                <i class="fa-solid fa-utensils"></i>
-                <p>Proposer un restaurant</p>
-            </div>
-            <div class="footer__partner">
-                <i class="fa-solid fa-handshake"></i>
-                <p>Devenir partenaire</p>
-            </div>
-            <div class="footer__mentions">
-                <p>Mentions légales</p>
-            </div>
-            <div class="footer__contact">
-                <a href="mailto:ohmyfood@contact.fr">Contact</a>
+            <div class="footer__container">
+                <div class="footer__container__restaurant">
+                    <i class="fa-solid fa-utensils"></i>
+                    <p>Proposer un restaurant</p>
+                </div>
+                <div class="footer__container__partner">
+                    <i class="fa-solid fa-handshake"></i>
+                    <p>Devenir partenaire</p>
+                </div>
+                <div class="footer__container__mentions">
+                    <p>Mentions légales</p>
+                </div>
+                <div class="footer__container__contact">
+                    <a href="mailto:ohmyfood@contact.fr">Contact</a>
+                </div>
             </div>
         </div>
     </footer>
