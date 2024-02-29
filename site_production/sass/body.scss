@@ -140,7 +140,7 @@ body{
                 height: 176px;
                 border: none;
                 border-radius: 20px 20px 0px 0px;
-                width: 100%;
+                width: $width;
             } 
             &__description{
                 background-color: $cd-background;
@@ -177,7 +177,7 @@ body{
             & img{
                 object-fit: cover;
                 height: 176px;
-                width: 100%;
+                width: $width;
                 border: none;
                 border-radius: 20px 20px 0px 0px;
             }
@@ -215,9 +215,9 @@ body{
     .images__menu{
         position: absolute;
         z-index: 0;
-        width: 100%;
+        width: $width;
         & img{
-        width: 100%;
+        width: $width;
         height: 275px;
         object-fit: cover;
         }
@@ -244,7 +244,7 @@ body{
                 margin: 0px 35px 0px 0px;
             }
             .enter{
-                width: 100%;
+                width: $width;
             }
             .heart{
                 display: flex;
@@ -284,7 +284,7 @@ body{
             &__cards{
                 display: flex;
                 flex-direction: column;
-                width: 100%;
+                width: $width;
                 cursor: pointer;
                 padding: 10px 10px 10px 15px;
                 white-space: nowrap;
@@ -473,7 +473,7 @@ body{
                 height: 176px;
                 border: none;
                 border-radius: 20px 20px 0px 0px;
-                width: 100%;
+                width: $width;
             } 
             &__description{
                 background-color: $cd-background;
@@ -510,7 +510,7 @@ body{
             & img{
                 object-fit: cover;
                 height: 176px;
-                width: 100%;
+                width: $width;
                 border: none;
                 border-radius: 20px 20px 0px 0px;
             }
@@ -548,9 +548,9 @@ body{
     .images__menu{
         position: absolute;
         z-index: 0;
-        width: 100%;
+        width: $width;
         & img{
-        width: 100%;
+        width: $width;
         height: 275px;
         object-fit: cover;
         }
@@ -577,7 +577,7 @@ body{
                 margin: 0px 35px 0px 0px;
             }
             .enter{
-                width: 100%;
+                width: $width;
             }
             .heart{
                 display: flex;
@@ -617,7 +617,7 @@ body{
             &__cards{
                 display: flex;
                 flex-direction: column;
-                width: 100%;
+                width: $width;
                 cursor: pointer;
                 padding: 10px 10px 10px 15px;
                 white-space: nowrap;
@@ -797,7 +797,7 @@ body{
                 height: 176px;
                 border: none;
                 border-radius: 20px 20px 0px 0px;
-                width: 100%;
+                width: $width;
             } 
             &__description{
                 background-color: $cd-background;
@@ -834,7 +834,7 @@ body{
             & img{
                 object-fit: cover;
                 height: 176px;
-                width: 100%;
+                width: $width;
                 border: none;
                 border-radius: 20px 20px 0px 0px;
             }
@@ -844,7 +844,7 @@ body{
                 box-shadow: 0px 4px 15px 0px $cd-shadow--secondary;
                 z-index: 0;
                 height: 80px;
-                width: 100%;
+                width: $width;
                 &__heart{
                     position: relative;
                     z-index: 1;
@@ -872,9 +872,9 @@ body{
     .images__menu{
         position: absolute;
         z-index: 0;
-        width: 100%;
+        width: $width;
         & img{
-        width: 100%;
+        width: $width;
         height: 275px;
         object-fit: cover;
         }
@@ -935,7 +935,7 @@ body{
             &__cards{
                 display: flex;
                 flex-direction: column;
-                width: 100%;
+                width: $width;
                 cursor: pointer;
                 padding: 10px 10px 10px 15px;
                 white-space: nowrap;
