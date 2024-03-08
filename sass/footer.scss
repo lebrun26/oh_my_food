@@ -1,0 +1,198 @@
+// Responsive Desktop
+@media (min-width: 1025px){
+.footer{
+    background-color: #353535;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 15px;
+    &__title{
+        color: white;
+        font-family: "shrikhand", sans-serif;
+        font-style: italic;
+        font-size: 18px;
+        padding: 20px 40px 10px 25px;
+        margin: 0px 0px 0px 80px;
+    }
+    &__container{
+        display: flex;
+        align-items: center;
+        &__restaurant{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: white;
+            padding: 10px 0px 0px 25px;
+            & p{
+                margin: 0px;
+                padding-left: 10px;
+            }
+        }
+        &__partner{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: white;
+            padding: 10px 0px 0px 25px;
+            & .fa-handshake{
+                transform: rotate(326deg);
+                font-size: 14px;
+                display: inline-block;
+                width: 13px;
+                height: 11.92px;
+            }
+            & p{
+                margin: 0px;
+                padding-left: 10px;
+            }
+        }
+        &__mentions{
+            color: white;
+            margin-left: 40px;
+            & p{
+                margin: 0px;
+                padding: 10px 0px 0px 25px;
+            }
+        }
+        &__contact{
+            padding: 10px 0px 0px 20px;
+            
+            & a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+}
+
+//Responsive Tablette
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .footer{
+        background-color: #353535;
+        position: relative;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 15px;
+        &__title{
+            color: white;
+            font-family: "shrikhand", sans-serif;
+            font-style: italic;
+            font-size: 18px;
+            padding: 20px 40px 10px 25px;
+            margin: 0px 0px 0px 30px;
+        }
+        &__container{
+            display: flex;
+            align-items: center;
+            &__restaurant{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                color: white;
+                padding: 10px 0px 0px 25px;
+                & p{
+                    margin: 0px;
+                    padding-left: 10px;
+                }
+            }
+            &__partner{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                color: white;
+                padding: 10px 0px 0px 25px;
+                & .fa-handshake{
+                    transform: rotate(326deg);
+                    font-size: 14px;
+                    display: inline-block;
+                    width: 13px;
+                    height: 11.92px;
+                }
+                & p{
+                    margin: 0px;
+                    padding-left: 10px;
+                }
+            }
+            &__mentions{
+                color: white;
+                & p{
+                    margin: 0px;
+                    padding: 10px 0px 0px 25px;
+                }
+            }
+            &__contact{
+                padding: 10px 0px 0px 20px;
+                
+                & a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    }
+
+// Responsive Phone
+@media (max-width: 767.98px){
+
+    .footer{
+        background-color: #353535;
+        position: relative;
+        &__title{
+            color: white;
+            font-family: "shrikhand", sans-serif;
+            font-style: italic;
+            font-size: 18px;
+            padding: 20px 0px 14px 25px;
+            margin: 0px;
+        }
+        &__container{
+            &__restaurant{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                color: white;
+                padding: 10px 0px 0px 25px;
+                & p{
+                    margin: 0px;
+                    padding-left: 10px;
+                }
+            }
+            &__partner{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                color: white;
+                padding: 10px 0px 0px 25px;
+                & .fa-handshake{
+                    transform: rotate(326deg);
+                    font-size: 14px;
+                    display: inline-block;
+                    width: 13px;
+                    height: 11.92px;
+                }
+                & p{
+                    margin: 0px;
+                    padding-left: 10px;
+                }
+            }
+            &__mentions{
+                color: white;
+                & p{
+                    margin: 0px;
+                    padding: 10px 0px 0px 25px;
+                }
+            }
+            &__contact{
+                padding: 10px 0px 25px 25px;
+                
+                & a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    }

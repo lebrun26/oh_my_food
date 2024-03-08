@@ -1,0 +1,211 @@
+// Animation loader
+@keyframes background-loader{
+    0%{
+        background-color: $cd-background;
+        opacity: 1;
+    }
+    95%{
+       background-color: $cd-background;
+       opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        background: transparent;
+        display: none;
+    }
+}
+@keyframes loader{
+    0%{
+        transform: translateX(-900px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+}
+.loader{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    animation: background-loader 3000ms forwards;
+
+    & img{
+        position: absolute;
+        z-index: 10;
+        width: 75px;
+        height: 75px;
+        top: 40%;
+        left: 50%;
+        animation: loader 2600ms ease-in-out;
+    }
+}
+// Animation menu
+
+//Titre des page de menu
+@keyframes appearance {
+    from{
+        transform: translateX(-999px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.container{
+    // title
+    & .title{
+        animation: appearance 2000ms 100ms backwards;
+    }
+    // Entrée
+    & .enter{
+        animation: appearance 2000ms 250ms backwards;
+    }
+    // Plats
+    & .dishes{
+        animation: appearance 2000ms 400ms backwards;
+    }
+    // Desserts
+    & .desserts{
+        animation: appearance 2000ms 550ms backwards;
+    }
+}
+// Animation sur le bouton accueil
+.reservation__button{
+    position: relative;
+}
+.button{
+    transition: opacity 500ms ease;
+    position: relative;
+}
+.reservation__button .button{
+    opacity: 1;
+}
+.reservation__button .button::before{
+    content: "Explorer nos restaurants";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: $width;
+    height: 100%;
+    color: white;
+    border-radius: 25px;
+    background-image: linear-gradient(200.64deg, #9356DC -70.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+    box-shadow: 0px 4px 15px 0px #00000059;
+    opacity: 0;
+    transition: opacity 500ms ease;
+}*
+.reservation__button:hover .button::before{
+    opacity: 1;
+}
+
+//Animation sur les boutons de page menu
+.container__button{
+    position: relative;
+}
+.button{
+    transition: opacity 500ms ease;
+    position: relative;
+}
+.container__button .button{
+    opacity: 1;
+}
+.container__button .button::before{
+    content: "Commander";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: $width;
+    height: 100%;
+    color: white;
+    border-radius: 25px;
+    background-image: linear-gradient(200.64deg, #9356DC -70.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+    box-shadow: 0px 4px 15px 0px #00000059;
+    opacity: 0;
+    transition: opacity 500ms ease;
+}*
+.container__button:hover .button::before{
+    opacity: 1;
+}
+// Animation pour commande de plat
+
+.container__menu {
+    input[type=checkbox] {
+      display:none;
+    }
+    i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 0;
+        width: 0;
+        overflow: hidden;
+        transition: all 600ms ease-out;
+    }
+    input[type=checkbox]:checked + i {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      font-size: 20px;
+      height: auto;
+      background : #99E2D0;
+      color: white;
+    }
+    input[type=checkbox]:checked + &__cards {
+        width: 80%;
+    }
+  }
+  // Transition coeur
+.heart__container{
+    .heart__checkbox {
+    display: none;
+    }
+
+    .heart {
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 25px;
+
+    .heart-filled {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0;
+        transition: transform 0.5s $transition-style, opacity 0.5s $transition-style;
+
+        &.gradient {
+        background: linear-gradient(180deg, #9356DC, #FF79DA);
+        background-clip: text;
+        color: transparent;
+        }
+    }
+    }
+
+    .heart__checkbox:checked + .heart {
+    .heart-filled {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+
+    .heart-empty {
+        opacity: 0;
+    }
+    }
+}
+
+
