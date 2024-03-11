@@ -1408,6 +1408,12 @@ body {
   animation: loader 2600ms ease-in-out;
 }
 
+@media (max-width: 768px) {
+  .loader img {
+    top: 40%;
+    left: 40%;
+  }
+}
 @keyframes appearance {
   from {
     transform: translateX(-999px);

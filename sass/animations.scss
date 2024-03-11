@@ -47,6 +47,15 @@
         animation: loader 2600ms ease-in-out;
     }
 }
+// Animation loader img responsive phone
+@media (max-width: 768px){
+    .loader{
+        & img{
+            top: 40%;
+            left: 40%;
+        }
+    }
+}
 // Animation menu
 
 //Titre des page de menu
