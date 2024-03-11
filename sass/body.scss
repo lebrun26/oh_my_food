@@ -291,8 +291,9 @@ body{
                 white-space: nowrap;
                 flex: 1;
                 min-width: 0;
-                & h3{
-                    margin: 0px;
+                &__title{
+                    font-size: 18px;
+                    font-weight: bold;
                     overflow: hidden;
                     text-overflow: ellipsis;
                 }
@@ -301,8 +302,7 @@ body{
                     justify-content: space-between;
                     align-items: flex-end;
                     padding: 10px 10px 0px 0px;
-                    & p{
-                        margin: 0px;
+                    &__txt{
                         overflow: hidden;
                         text-overflow: ellipsis;
                     }
@@ -625,8 +625,9 @@ body{
                 white-space: nowrap;
                 flex: 1;
                 min-width: 0;
-                & h3{
-                    margin: 0px;
+                &__title{
+                    font-size: 18px;
+                    font-weight: bold;
                     overflow: hidden;
                     text-overflow: ellipsis;
                 }
@@ -635,8 +636,7 @@ body{
                     justify-content: space-between;
                     align-items: flex-end;
                     padding: 10px 10px 0px 0px;
-                    & p{
-                        margin: 0px;
+                    &__txt{
                         overflow: hidden;
                         text-overflow: ellipsis;
                     }
@@ -945,8 +945,9 @@ body{
                 white-space: nowrap;
                 flex: 1;
                 min-width: 0;
-                & h3{
-                    margin: 0px;
+                &__title{
+                    font-size: 18px;
+                    font-weight: bold;
                     overflow: hidden;
                     text-overflow: ellipsis;
                 }
@@ -955,8 +956,7 @@ body{
                     justify-content: space-between;
                     align-items: flex-end;
                     padding: 10px 10px 0px 0px;
-                    & p{
-                        margin: 0px;
+                    &__txt{
                         overflow: hidden;
                         text-overflow: ellipsis;
                     }

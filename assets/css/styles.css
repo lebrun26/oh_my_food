@@ -440,8 +440,9 @@ body {
     flex: 1;
     min-width: 0;
   }
-  .container .container__menu__cards h3 {
-    margin: 0px;
+  .container .container__menu__cards__title {
+    font-size: 18px;
+    font-weight: bold;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -451,8 +452,7 @@ body {
     align-items: flex-end;
     padding: 10px 10px 0px 0px;
   }
-  .container .container__menu__cards__price p {
-    margin: 0px;
+  .container .container__menu__cards__price__txt {
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -794,8 +794,9 @@ body {
     flex: 1;
     min-width: 0;
   }
-  .container .container__menu__cards h3 {
-    margin: 0px;
+  .container .container__menu__cards__title {
+    font-size: 18px;
+    font-weight: bold;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -805,8 +806,7 @@ body {
     align-items: flex-end;
     padding: 10px 10px 0px 0px;
   }
-  .container .container__menu__cards__price p {
-    margin: 0px;
+  .container .container__menu__cards__price__txt {
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -1131,8 +1131,9 @@ body {
     flex: 1;
     min-width: 0;
   }
-  .container .container__menu__cards h3 {
-    margin: 0px;
+  .container .container__menu__cards__title {
+    font-size: 18px;
+    font-weight: bold;
     overflow: hidden;
     text-overflow: ellipsis;
   }
@@ -1142,8 +1143,7 @@ body {
     align-items: flex-end;
     padding: 10px 10px 0px 0px;
   }
-  .container .container__menu__cards__price p {
-    margin: 0px;
+  .container .container__menu__cards__price__txt {
     overflow: hidden;
     text-overflow: ellipsis;
   }
