@@ -169,7 +169,8 @@ body {
   }
   .reservation__button {
     display: flex;
-    justify-content: center;
+    margin: 30px auto 0px auto;
+    width: 205px;
   }
   .reservation__button .button {
     background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -461,8 +462,8 @@ body {
   }
   .container__button {
     display: flex;
-    justify-content: center;
-    padding: 30px 0px 42px 0px;
+    margin: 30px auto 42px auto;
+    width: 205px;
   }
   .container__button .button {
     background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -512,7 +513,8 @@ body {
   }
   .reservation__button {
     display: flex;
-    justify-content: center;
+    margin: 30px auto 0px auto;
+    width: 205px;
   }
   .reservation__button .button {
     background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -539,7 +541,7 @@ body {
     flex-wrap: wrap;
   }
   .explain__title {
-    padding: 20px 0px 13px 7%;
+    padding: 20px 0px 13px 0px;
     display: flex;
     justify-content: center;
     width: 70%;
@@ -814,8 +816,8 @@ body {
   }
   .container__button {
     display: flex;
-    justify-content: center;
-    padding: 30px 0px 42px 0px;
+    margin: 30px auto 42px auto;
+    width: 205px;
   }
   .container__button .button {
     background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -866,6 +868,7 @@ body {
   .reservation__button {
     display: flex;
     justify-content: center;
+    margin: 30px 25% 0px 25%;
   }
   .reservation__button .button {
     background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
@@ -1151,7 +1154,8 @@ body {
   .container__button {
     display: flex;
     justify-content: center;
-    padding: 30px 0px 42px 0px;
+    margin: 30px 50% 0px 50%;
+    padding-bottom: 40px;
   }
   .container__button .button {
     background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
