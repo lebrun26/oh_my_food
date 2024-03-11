@@ -250,7 +250,7 @@ body {
     padding: 60px 0px 25px 15px;
   }
   .restaurants__title h2 {
-    margin: 0px;
+    margin: 0px 0px 20px 45px;
   }
   .restaurants__container__add {
     display: flex;
@@ -603,7 +603,7 @@ body {
     justify-content: center;
   }
   .restaurants__title h2 {
-    margin: 0px;
+    margin: 0px 0px 25px 0px;
   }
   .restaurants__container__add {
     display: flex;
@@ -1403,8 +1403,8 @@ body {
   z-index: 10;
   width: 75px;
   height: 75px;
-  top: 40%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
   animation: loader 2600ms ease-in-out;
 }
 
