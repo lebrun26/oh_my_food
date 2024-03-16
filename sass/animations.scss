@@ -2,14 +2,14 @@
 @keyframes background-loader{
     0%{
         background-color: $cd-background;
-        opacity: 1;
+        visibility: visible;
     }
     95%{
        background-color: $cd-background;
-       opacity: 1;
+       visibility: visible;
     }
     100%{
-        opacity: 0;
+        visibility: hidden;
         background: transparent;
         display: none;
     }
@@ -21,7 +21,7 @@
     50%{
         transform: translateX(0);
     }
-    60%{
+    70%{
         transform: rotate(0deg);
     }
     100%{
@@ -35,7 +35,7 @@
     left: 0;
     right: 0;
     z-index: 9;
-    animation: background-loader 3000ms forwards;
+    animation: background-loader 3200ms forwards;
 
     & img{
         position: absolute;

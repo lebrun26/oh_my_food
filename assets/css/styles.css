@@ -347,7 +347,7 @@ body {
   .restaurants__cards__description__heart {
     position: relative;
     z-index: 1;
-    left: 85%;
+    left: 90%;
     bottom: 50px;
     width: 23px;
   }
@@ -1044,7 +1044,7 @@ body {
   .restaurants__cards__description__heart {
     position: relative;
     z-index: 1;
-    left: 85%;
+    left: 90%;
     bottom: 50px;
     width: 23px;
   }
@@ -1367,14 +1367,14 @@ body {
 @keyframes background-loader {
   0% {
     background-color: white;
-    opacity: 1;
+    visibility: visible;
   }
   95% {
     background-color: white;
-    opacity: 1;
+    visibility: visible;
   }
   100% {
-    opacity: 0;
+    visibility: hidden;
     background: transparent;
     display: none;
   }
@@ -1386,7 +1386,7 @@ body {
   50% {
     transform: translateX(0);
   }
-  60% {
+  70% {
     transform: rotate(0deg);
   }
   100% {
@@ -1400,7 +1400,7 @@ body {
   left: 0;
   right: 0;
   z-index: 9;
-  animation: background-loader 3000ms forwards;
+  animation: background-loader 3200ms forwards;
 }
 .loader img {
   position: absolute;
